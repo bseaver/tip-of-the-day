@@ -1,0 +1,43 @@
+/* Outer container */
+.mycontainer {
+  height: 60vh;
+  width: 90vw;
+  margin: 5px;
+  border: 2px solid red;
+}
+
+.myfloater {
+  float:left;
+  width: 200px;
+  height: 10vh;
+  border: 6px solid gold;
+  margin: 5px;
+  background-color: lightgrey;
+}
+
+.bigger {
+  width: 220px;
+  height: 14vh;
+  background-color: yellow;
+}
+
+.bad-alignment {
+  background-color: pink;
+  height: 18vh;
+
+  /* Bigger left margin throws off content alignment on left when boxes are vertically stacked. Bigger or smaller left border or padding will also throw off left alignment. */
+  margin-left: 20px;
+
+  /* Bigger top border throws off content alignment on top when boxes float side by side */
+  border-top: 12px solid red;
+
+}
+
+body {
+  background-color: skyblue;
+}
+
+.myfloater p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
